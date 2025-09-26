@@ -1,16 +1,49 @@
-# React + Vite
+# Dmytro Sorokine — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fast, responsive personal site built with **React + Vite + Tailwind CSS**.  
+It showcases my projects, tech stack, and my personnal info, with smooth scrolling, animated sections, and a11y-friendly components.
 
-Currently, two official plugins are available:
+> 🌐 **Live demo:** https://dmytrosorokine.infinityfreeapp.com/  
+> 📦 **Repo:** https://github.com/SorokineDmytro/portfolio
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Responsive UI** with Tailwind (mobile-first)
+- **Sticky navbar** + animated **burger menu**
+- Smooth anchor scrolling with header offset (`scroll-smooth`)
+- **Tech stack selector** with active state
+- **Projects grid** with alternating image/text order on desktop
+- **Download CV** button
+- Video **Hobby** section with `.webm` clips (`aspect-video` + `object-cover`)
+- **Back to top** floating button
+- Dark, subtle gradients with tuned stops
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧰 Tech Stack
+
+- **Frontend:** React, Vite, Tailwind CSS
+- **Deploy:** infinityfree.com
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 18+ (recommended 20)
+- npm / pnpm / yarn
+- **npm run build** to start a project 
+
+---
+
+👋 Author
+
+Dmytro Sorokine — Web developer (React, Symfony, PostgreSQL)
+
+GitHub: https://github.com/SorokineDmytro
+
+LinkedIn: www.linkedin.com/in/dmytro-sorokine-040536303
+
+Email: dmytro.sorokine@epitech.eu
