@@ -24,7 +24,13 @@ const Stack = () => {
     <section id="stack" className="p-10 md:p-20 lg:p-30 flex flex-col items-center text-white">
       <Title text={"Mon stack technologique"} />
       <Selector active={isActive} onSelect={setIsActive} />
-      <Container name={activeOption.label} array={activeOption.data} />
+      {/* key forces Container to remount on tab change, resetting open state */}
+      <Container
+        key={activeOption.key}
+        name={activeOption.label}
+        array={activeOption.data}
+        isActive={true}
+      />
     </section>
   );
 };
