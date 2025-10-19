@@ -1,12 +1,18 @@
 import React from "react";
 
-const Diploma = ({ name, university, year, isOpen, onToggle }) => {
+const Diploma = ({ name, university, year, isOpen, isAnimating, onToggle }) => {
   return (
     <article
       onClick={onToggle}
       className={[
-        "group my-5 gap-6 w-full border border-red-200 rounded-2xl p-5",
-        "cursor-pointer overflow-hidden transition-[max-height] duration-500 ease-in-out",
+        "group my-5 gap-6 w-full border border-red-200 rounded-2xl p-5 cursor-pointer overflow-hidden transition-[max-height] ease-in-out",
+        // softer when opening
+        isOpen
+          ? "duration-700 ease-out"
+          : isAnimating
+          ? "duration-300 ease-in"
+          : "duration-500 ease-in",
+        "lg:duration-700 lg:ease-out", // desktop hover stays smooth
         isOpen ? "max-h-fit" : "max-h-40 lg:max-h-55 lg:hover:max-h-fit",
       ].join(" ")}
     >
@@ -16,8 +22,10 @@ const Diploma = ({ name, university, year, isOpen, onToggle }) => {
 
       <p
         className={[
-          "my-5 text-xl md:text-2xl leading-8 overflow-hidden transition-[max-height,opacity] duration-500 ease-in-out",
-          isOpen ? "max-h-fit opacity-100" : "max-h-0 opacity-0",
+          "my-5 text-xl md:text-2xl leading-8 overflow-hidden transition-[max-height,opacity]",
+          isOpen
+            ? "duration-700 ease-out max-h-fit opacity-100"
+            : "duration-500 ease-in max-h-0 opacity-0",
           "lg:group-hover:max-h-fit lg:group-hover:opacity-100",
         ].join(" ")}
       >
@@ -26,8 +34,10 @@ const Diploma = ({ name, university, year, isOpen, onToggle }) => {
 
       <p
         className={[
-          "my-5 text-xl md:text-2xl leading-8 overflow-hidden transition-[max-height,opacity] duration-700 ease-in-out",
-          isOpen ? "max-h-fit opacity-100" : "max-h-0 opacity-0",
+          "my-5 text-xl md:text-2xl leading-8 overflow-hidden transition-[max-height,opacity]",
+          isOpen
+            ? "duration-700 ease-out max-h-fit opacity-100"
+            : "duration-500 ease-in max-h-0 opacity-0",
           "lg:group-hover:max-h-fit lg:group-hover:opacity-100",
         ].join(" ")}
       >

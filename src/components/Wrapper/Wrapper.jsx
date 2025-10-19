@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../Header/header";
 import Main from "../Main/Main";
-import Footer from "../Main/Footer/Footer";
+import Footer from "../Footer/Footer";
 
 const Wrapper = () => {
   return (
