@@ -1,6 +1,7 @@
 # Dmytro Sorokine — Portfolio
 
-A fast, responsive personal site built with **React + Vite + Tailwind CSS**.  
+A fast, responsive personal site built with 
+**React + Vite + Tailwind CSS**.  
 It showcases my projects, tech stack, and my personnal info, with smooth scrolling, animated sections, and a11y-friendly components.
 
 > 🌐 **Live demo:** https://dmytrosorokine.infinityfreeapp.com/  
@@ -15,8 +16,8 @@ It showcases my projects, tech stack, and my personnal info, with smooth scrolli
 - Smooth anchor scrolling with header offset (`scroll-smooth`)
 - **Tech stack selector** with active state
 - **Projects grid** with alternating image/text order on desktop
+- **Animated background** using ReactBits library
 - **Download CV** button
-- Video **Hobby** section with `.webm` clips (`aspect-video` + `object-cover`)
 - **Back to top** floating button
 - Dark, subtle gradients with tuned stops
 
@@ -33,8 +34,26 @@ It showcases my projects, tech stack, and my personnal info, with smooth scrolli
 
 ### Prerequisites
 - Node.js 18+ (recommended 20)
-- npm / pnpm / yarn
-- **npm run build** to start a project 
+
+---
+
+### Installation
+```bash
+# Clone the repository
+git clone https://github.com/SorokineDmytro/portfolio.git
+
+# Navigate to project directory
+cd portfolio
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+```
 
 ---
 
