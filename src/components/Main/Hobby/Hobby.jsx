@@ -27,15 +27,15 @@ const Hobby = () => {
         <Title text="Mes centres d'intérêt" />
 
         <div className="mt-8 lg:h-20 grid grid-cols-1 lg:grid-cols-3 gap-10">
-              <span className="m-auto my-5 text-3xl md:text-4xl duration-500 hover:text-5xl bg-gradient-to-r from-orange-300 to-violet-300 inline-block text-transparent bg-clip-text">
+              <span className="m-auto min-h-15 my-5 text-3xl md:text-4xl duration-500 hover:text-5xl bg-gradient-to-r from-orange-300 to-violet-300 inline-block text-transparent bg-clip-text">
                 Voyages
               </span>
 
-              <span className="m-auto my-5 text-3xl md:text-4xl duration-500 hover:text-5xl bg-gradient-to-r from-orange-300 to-violet-300 inline-block text-transparent bg-clip-text">
+              <span className="m-auto min-h-15 my-5 text-3xl md:text-4xl duration-500 hover:text-5xl bg-gradient-to-r from-orange-300 to-violet-300 inline-block text-transparent bg-clip-text">
                 Coding
               </span>
 
-              <span className="m-auto my-5 text-3xl md:text-4xl duration-500 hover:text-5xl bg-gradient-to-r from-orange-300 to-violet-300 inline-block text-transparent bg-clip-text">
+              <span className="m-auto min-h-15 my-5 text-3xl md:text-4xl duration-500 hover:text-5xl bg-gradient-to-r from-orange-300 to-violet-300 inline-block text-transparent bg-clip-text">
                 Running
               </span>
         </div>

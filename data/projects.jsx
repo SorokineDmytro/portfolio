@@ -1,5 +1,11 @@
 export const projects = [
     {
+        imgSrc : "./P6.png", 
+        name : "Job board", 
+        desc : "Application développée sous forme de plateforme full-stack de recherche d’emploi et de recrutement. Le backend est conçu avec Laravel (PHP) et expose une API REST sécurisée par JWT, documentée avec L5-Swagger, connectée à une base de données MySQL. Le frontend est développé en React + TypeScript avec Vite, utilisant Tailwind CSS, ShadCN, Zustand pour la gestion d’état, TanStack Query pour la gestion des requêtes et Zod avec React Hook Form pour la validation des formulaires. Le projet est conteneurisé avec Docker et orchestré via Docker Compose pour un environnement de développement et de déploiement simplifié.", 
+        link : "#",
+    },
+    {
         imgSrc : "./P5.png", 
         name : "Site e-commerce de vêtements (en production)", 
         desc : "Application conçue sous forme de REST API, avec un frontend en React.js (utilisant Tailwind CSS et Vite) et un backend conteneurisé avec Docker et déployé sur un serveur Nginx. Développé avec Symfony et API Platform, intégrant OAuth2 pour l’authentification et une base de données PostgreSQL pour la gestion des données.", 
@@ -23,10 +29,10 @@ export const projects = [
         desc : "Application permettant la création et la gestion des produits, ainsi que le suivi des commandes et des clients. Développée avec un frontend en HTML, Bootstrap et JavaScript natif, et un backend en PHP natif connecté à MariaDB.", 
         link : "https://github.com/SorokineDmytro/DWWM",
     },
-    {
-        imgSrc : "./P1.png", 
-        name : "Système de gestion clients", 
-        desc : "Partie frontend d’un système de gestion de personnel en HTML, CSS et JavaScript natif.", 
-        link : "#projects",
-    },
+    // {
+    //     imgSrc : "./P1.png", 
+    //     name : "Système de gestion clients", 
+    //     desc : "Partie frontend d’un système de gestion de personnel en HTML, CSS et JavaScript natif.", 
+    //     link : "#projects",
+    // },
 ]
