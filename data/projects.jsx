@@ -1,9 +1,15 @@
 export const projects = [
     {
+        imgSrc : "./P7.png", 
+        name : "DeepDiver 2D game", 
+        desc : "DeepDiver est un petit jeu 2D dans lequel le joueur contrôle un plongeur et navigue parmi des obstacles sous-marins ainsi que des objets à collecter. L’objectif principal est de battre le meilleur score en plongeant toujours plus profond dans les abysses. Le code du jeu suit une structure classique multi-module de libGDX, avec la logique du jeu dans le module core et un lanceur desktop/lwjgl3 dans le module lwjgl3.", 
+        link : "https://github.com/SorokineDmytro/DeepDiver",
+    },
+    {
         imgSrc : "./P6.png", 
         name : "Job board", 
         desc : "Application développée sous forme de plateforme full-stack de recherche d’emploi et de recrutement. Le backend est conçu avec Laravel (PHP) et expose une API REST sécurisée par JWT, documentée avec L5-Swagger, connectée à une base de données MySQL. Le frontend est développé en React + TypeScript avec Vite, utilisant Tailwind CSS, ShadCN, Zustand pour la gestion d’état, TanStack Query pour la gestion des requêtes et Zod avec React Hook Form pour la validation des formulaires. Le projet est conteneurisé avec Docker et orchestré via Docker Compose pour un environnement de développement et de déploiement simplifié.", 
-        link : "#",
+        link : "https://github.com/SorokineDmytro/AlloBoulot",
     },
     {
         imgSrc : "./P5.png", 
